@@ -1,0 +1,14 @@
+---
+description: Open a Reaper session Brandon saved on macOS, on this Windows PC
+alwaysApply: false
+---
+
+# Mac sessions on Windows
+
+Brandon's projects are saved on macOS. This PC runs Reaper 7.80.
+
+- Audio Units do not load here. Insert the VST3 of the same plugin. Kontakt 8 VST3 is installed as `VSTi: Kontakt 8 (Native Instruments) (64 out)`.
+- Swapping AU Kontakt for VST3 does not restore the loaded kit. Load the kit again. Keep the existing MIDI note numbers.
+- Media paths look like `/Volumes/Extreme SSD/...`. Relink to the copies in that song's folder on this PC.
+- A missing plugin on the master (Metric AB is an AU reference tool) can stay offline. Do not remove it.
+- When the drums are finished, the deliverable is the Reaper project for Brandon to load into the main session.

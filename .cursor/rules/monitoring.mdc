@@ -1,0 +1,16 @@
+---
+description: Reaper playback device on this Windows laptop
+alwaysApply: false
+---
+
+# Monitoring
+
+Set this in the open session. Options → Preferences → Audio → Device. Do not restart Reaper to change it.
+
+- Audio system: WASAPI. Mode: Shared. Sample rate: 48000. Block size: 512.
+- Headphones: `Headphones (2- Razer Kraken V4 Pro BT)`. Current choice.
+- Do not select a device whose name starts with Headset. That is the call mode.
+- Laptop speakers, if asked: `Speakers (Realtek(R) Audio)`.
+- An empty ASIO driver means silence. Switch that session to WASAPI.
+
+Bluetooth on the Kraken feels late. That delay is the headset. The USB Game output is tighter and is a different device; use it only when it is connected.
