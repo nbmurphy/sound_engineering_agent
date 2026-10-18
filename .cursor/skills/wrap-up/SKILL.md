@@ -5,7 +5,7 @@ description: Persist this chat into HANDOFF.md and the cursor rules, then commit
 
 # Wrap up
 
-Save only facts and tasks that are not already written down. Then commit and push.
+Every `/wrap-up` rewrites the resume from this chat, then commits and pushes. Do this even when an earlier wrap-up in the same chat already committed.
 
 ## Where facts go
 
@@ -17,11 +17,11 @@ Save only facts and tasks that are not already written down. Then commit and pus
 
 ## HANDOFF.md
 
-This file is the resume card. A new chat whose first message is `read handoff` must be able to continue from this file plus the paths it names.
+Always rewrite this file from the current chat before committing. A new chat whose first message is `read handoff` must be able to continue from this file plus the paths it names.
 
-- Rewrite `## Now` so it names the current song and the one file to open next.
-- Keep `## Open` as checkboxes: `- [ ] Song — task`. Add a task once. Mark `[x]` only when this chat finished it.
-- Keep `## Pointers` as paths. Do not copy rule text or song text into this file.
+- `## Now` names the current song and the one file to open next.
+- `## Open` is checkboxes: `- [ ] Song — task`. Add a task once. Mark `[x]` only when this chat finished it.
+- `## Pointers` are paths. Do not copy rule text or song text into this file.
 
 ## Commit and push
 
@@ -32,4 +32,4 @@ From the repo root:
 3. Commit. The subject says why the context was saved.
 4. Run `git push`. Do not force-push. Do not change git config.
 
-If nothing new needs saving, say so. Do not make an empty commit.
+The rewrite comes first. Skip the commit only when that rewrite left every file identical to HEAD.
