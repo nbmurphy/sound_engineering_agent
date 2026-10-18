@@ -1,0 +1,14 @@
+---
+description: Keep every chat inside a small token budget
+alwaysApply: true
+---
+
+# Token budget
+
+Always-on text is this rule plus the root `AGENTS.md`. Keep both short. `alwaysApply` is only for a trigger that every chat must follow.
+
+- Put each fact in one place. Song facts go in that song's `AGENTS.md`. Cross-song facts go in a root rule with `alwaysApply: false` unless every chat needs them.
+- Read a song file only when that song is the task. Do not open other songs.
+- Read the smallest span that answers the question. Do not reread a file already in the chat.
+- Do not paste a file, a rule, or a session into a reply or into another file.
+- Do not add an always-on rule for a procedure. State the trigger here. Put steps and tables in the file that uses them.

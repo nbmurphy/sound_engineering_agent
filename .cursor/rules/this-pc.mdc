@@ -1,0 +1,11 @@
+---
+description: This Windows PC keyboard, git aliases, and one-off shell commands
+alwaysApply: false
+---
+
+# This PC
+
+- Git config: `C:\Users\nbenj\.gitconfig`. Aliases: `st` status, `br` branch, `cob` checkout -b, `co` checkout, `cm` commit -m.
+- Caps Lock and the left Alt key are Ctrl. The right Alt key is still Alt. Windows applies this at sign-in.
+- In Cursor, Ctrl+Shift+K deletes the current line. Elsewhere: Home, Shift+End, Delete.
+- For a one-off change on this PC, give a short Git Bash command for the user to run. Use tools when the result must be written into this repo.
