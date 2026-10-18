@@ -1,0 +1,10 @@
+---
+description: Reply with the result only
+alwaysApply: true
+---
+
+# Replies
+
+- Lead with the result.
+- Do not narrate the plan, the reasoning, or how an earlier version behaved.
+- Do not restate instructions the user just gave.
