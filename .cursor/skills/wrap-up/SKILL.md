@@ -17,7 +17,7 @@ Every `/wrap-up` rewrites the resume from this chat, then commits and pushes. Do
 
 ## HANDOFF.md
 
-Always rewrite this file from the current chat before committing. A new chat whose first message is `read handoff` must be able to continue from this file plus the paths it names.
+Always rewrite this file from the current chat before committing. A new chat whose first message is `handoff` must be able to continue from this file plus the paths it names.
 
 - `## Now` names the current song and the one file to open next.
 - `## Open` is checkboxes: `- [ ] Song — task`. Add a task once. Mark `[x]` only when this chat finished it.

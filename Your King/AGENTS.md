@@ -10,7 +10,7 @@ Task: finish the clicked drums on the UHD track.
 
 - `Atlas Aeterna - Your King - No drums` — muted bed, mix minus drums
 - `Atlas Aeterna - Your King - Low Vocals`
-- `UHD` — Kontakt 8, MIDI item `02-UHD-MIDI-glued` (the part to finish)
+- `UHD` — Kontakt 8, MIDI item `02-UHD-MIDI-glued` (the part to finish). On this PC the instrument is Ultimate Heavy Drums: `C:\Users\Public\Documents\Ultimate Heavy Drums\Instruments\MDL Tone - Ultimate Heavy Drums.nki`. The open session uses the Windows VST3. Two were inserted; keep the one with that instrument.
 - Unnamed second Kontakt — muted, MIDI item `74-UHD-MIDI-glued`
 
 ## Markers

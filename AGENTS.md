@@ -6,7 +6,7 @@ MIDI drums for Atlas Aeterna in Reaper. Finished projects go back to Brandon Man
 
 - This file is an index. One line per song. No session details here.
 - New song: create `<song>/AGENTS.md` and add one line under Songs.
-- If the user says `read handoff`, read `HANDOFF.md` and follow it. Do not open other songs.
+- If the user says `handoff`, read `HANDOFF.md` and follow it. Do not open other songs.
 - Do not copy `.RPP` files, audio, or plugin state into this repo. Point at the session on disk.
 
 ## Web

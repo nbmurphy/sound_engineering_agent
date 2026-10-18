@@ -1,11 +1,12 @@
 # Handoff
 
-Read this file when the user says `read handoff`. Then open only the files named for the current task.
+Read this file when the user says `handoff`. Then open only the files named for the current task.
 
 ## Now
 
 - Song: Your King. Next file: `Your King/AGENTS.md`.
 - Do: finish the clicked drums on the UHD track.
+- The session is saved with the Windows Kontakt and Ultimate Heavy Drums on the UHD track.
 - Leave Brandon's tempo, time signature, and markers as they are.
 
 ## Open
